@@ -1,0 +1,76 @@
+
+/*NAVBAR*/
+.cid-qX7JrtQTIi .navbar {
+    padding: .5rem 0;
+    background: #EFEFEF;
+    transition: none;
+    min-height: 77px;
+}
+
+.jumbotron{
+    background-image: url('../images/truck1.jpg');
+    background-size: cover;
+    background-position: center;
+    color:white;
+    min-height: 350px;
+    text-align: center;
+    margin: 0;
+   
+}
+
+
+.usluge-slika{
+    padding: 0;
+}
+
+.usluga h2{
+    font-size: 2.5rem;
+}
+
+.usluga p{
+    font-size: 0.8rem;
+    line-height: 1.45rem;
+ 
+    color: #4A4A4A;
+}
+
+.usluge-slika img{
+   height: 300px;
+    width: 100%;
+}
+.usluge-text{
+  padding-top: 10%;
+}
+
+.usluge-text p{
+    font-size: 0.9em;
+    line-height: 2em;
+    
+}
+.usluge-text-left{
+    margin-right: 3em;
+ }
+
+ .usluge-text-right{
+    margin-left: 3em;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.kontaktirajte-nas{
+    background-color: #D03232;color:white;text-align: center;padding: 30px
+}
+
+
+@media  (max-width:739px){
+    .jumbotron{
+        min-height: 230px; 
+    }
+    .usluge-slika img{
+        height: 160px;
+         width: 100%;
+     }
+
+}

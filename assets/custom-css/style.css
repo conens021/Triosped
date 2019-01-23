@@ -1,0 +1,303 @@
+body{
+    font-family: 'Montserrat';
+}
+p{
+    font-size: 0.8rem;
+    line-height: 1.45rem;
+   
+}
+
+/*Preloader*/
+body.preloader-site {
+    overflow: hidden;
+}
+
+.preloader-wrapper {
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+.preloader-wrapper .preloader {
+    position: absolute;
+    top: 50%;
+   
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 120px;
+}
+.preloader img{
+    width: 150px;
+    height: 150px;
+}
+
+/*NAVBAR*/
+.cid-qX7JrtQTIi .navbar {
+    padding: .5rem 0;
+    background: #EFEFEF;
+    transition: none;
+    min-height: 77px;
+}
+
+/*Header*/
+.header h1{
+    letter-spacing: 0.2rem;font-weight: 900;font-size: 4.2rem;margin-bottom: 0.3em;text-shadow: 4px 4px 4px #343A48;
+}
+.header h3{
+    letter-spacing: 0.2rem;font-weight: 500;font-size: 1.6rem;line-height: 1.6em;text-shadow: 4px 4px 4px #343A48;
+    padding-left: 5px;
+}
+.cid-qX7PKq60Eo{
+    padding-bottom: .7em;
+    padding-top: 0;
+}
+.contact-container{
+    padding: 0;
+    margin: 0;
+}
+
+.kontakt-header{
+    background-color: #EFEFEF;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.box-part{
+    
+    border-radius:0;
+    padding:20px 10px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+.fas{
+    color:#495057;
+}
+
+/*Row under header*/
+.services-row{
+    min-height: 35vh;
+  }
+ 
+  .dark-bg-overlay{
+    background-color: rgb(51, 51, 51,0.7);
+  }
+.btn-outline-default{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+.btn-outline-default:hover{
+    background-color: white;
+  
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn-outline-success{
+    background-color: transparent;
+    border: 2px solid #495057;
+    color: #495057;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+.btn-outline-success:hover{
+    background-color: #495057;
+    border: 2px solid #495057;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.title h4{
+    font-weight: 400;
+}
+.box-part{
+    padding:0;
+}
+
+/*Kontakt header*/
+.konakt-header{
+    background-color: #1A1E20;
+    color:white;
+    padding: 15px 0;
+}
+#kontakt-header span{
+    color:white;
+}
+#kontakt-header .fas{
+    color:#D03232;
+    font-size: 1.4rem;
+}
+
+/*O nama*/
+.o-nama{
+    padding-left: 8em;
+}
+.o-nama-text{
+    font-size: 16px;
+}
+#o-nama-slika{
+    width:90%;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.o-nama p{
+ color: #4A4A4A;
+}
+
+/*USLUGE*/
+.usluge{
+    background-color: #EFEFEF;
+   
+}
+span{
+    font-size:15px;
+}
+.usluge p{
+    color: #4A4A4A;
+}
+.usluge a{
+  text-decoration: none; 
+  color: #D03232;
+  
+}
+.usluge a:hover{
+    border-bottom:2px solid #D03232;
+}
+.box{
+    padding:40px 0px;
+}
+
+.box-part{
+    background:#EFEFEF;
+    border-radius:0;
+    padding:50px 10px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fas{
+     color:#D03232;
+}
+.usluga h4{
+    font-weight: 600;
+}
+
+
+
+/*Citati*/
+.citati{
+    background-image: url('/assets/images/truck.jpg');
+    background-size: cover;
+    background-position:left;
+    min-height: 400px;
+    padding-left: 0;padding-right: 0;position: relative;
+}
+.citati-left{
+    background-color: rgb(208, 50, 50);
+    position: absolute;
+    top: 0;
+    left: 0;height: 
+    100%;width: 50%;
+    color:white;
+}
+.citati-right{
+    background-color: rgb(73, 80, 87,0.6);
+    position: absolute;
+    top: 0;
+    left: 50%;height: 
+    100%;width: 50%;
+    color:white;
+}
+.slick-dots li button::before{
+    color:white
+}
+.citati p{
+    color:white;
+}
+
+/*Partners*/
+.partners{
+    padding: 50px 15%;
+    background-color: #EFEFEF;
+}
+
+
+/*Footer*/
+#footer2-8{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+@media  (max-width:956px){
+    .konakt-header{
+        background-color: #1A1E20;
+        color:white;
+        padding: 15px 2em;
+    }
+    .kontak-column{
+        margin-bottom: 15px;
+    }
+
+    .header h1{
+        letter-spacing: 0.2rem;font-weight: 800;font-size: 2.4rem;margin-bottom: 0.3em;text-shadow: 4px 4px 4px #343A48;
+    }
+    .header h3{
+        letter-spacing: 0.2rem;font-weight: 800;font-size: 1.3rem;line-height: 1.6em;text-shadow: 4px 4px 4px #343A48
+    } #kontakt-header span{
+       display:inline;
+    }
+   
+    /*O nama*/
+.o-nama{
+    padding-left: 1em;
+}
+#o-nama-slika{
+    width: 60%;
+}
+.citati-left{
+    background-color: rgb(208, 50, 50);
+    position: absolute;
+    top: 0;
+    left: 0;height: 
+    100%;width: 100%;
+    color:white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.citati-right{
+    display:none;
+}
+}
+
+
+@media  (max-width:460px){
+    #o-nama-slika{
+        display: none;
+    }
+
+    .header h1{
+      font-size: 2rem;
+    }
+    
+    .header h3{
+        font-size: 1.1rem;
+      }
+    .header-title{
+        padding-left: 15px;
+    }
+}
